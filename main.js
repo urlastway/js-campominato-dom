@@ -21,7 +21,7 @@ for(let i = 0; i<16; i++){
 
 console.log(pcNumer);
 
-for(let i = 0; i<3; i++){
+for(let i = 0; i<16; i++){
   var userNumber = Number(prompt("Inserisci un numero"));
       if(userNum.includes(userNumber)){
         do{
@@ -34,7 +34,7 @@ for(let i = 0; i<3; i++){
         console.log("numero vietato, hai perso");
         break;
       }
-      else if(i < 2){
+      else if(i < 15){
         userNum.push(userNumber);
         console.log(userNumber);
       }
